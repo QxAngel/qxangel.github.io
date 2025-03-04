@@ -7,7 +7,21 @@
     {
       "name": "Agar.io",
       "version": "2.28.10",
-      "down": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/SharkMod_1.7.0.ipa",
+      "down": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/AGARIO_2.28.10_BiteYt-SkinsMod-2.5.0.ipa",
+      "dev": "@mgbite.yt",
+      "category": "Agar.io Mod",
+      "description": "bite mod",
+      "bundleID": "com.miniclip.agar.io.biteskins",
+      "appstore": "com.miniclip.agar.io",
+      "contact": {
+        "web": "https://qxangel.github.io",
+        "PayPal": "https://www.paypal.me/onlykex1"
+      }
+    },
+    {  
+      "name": "Agar.io",
+      "version": "2.28.10",
+      "down": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/SharkMod_1.7.2.3.ipa",
       "dev": "@ytb.shark",
       "category": "Agar.io Mod",
       "description": "Shark mod",
@@ -176,8 +190,8 @@
     "Hacked Apps": [
     {
       "name": "Minecraft",
-      "version": "1.21.51",
-      "down": "https://github.com/QxAngel/qxangel.github.io/releases/download/1(Minecraft.ipa",
+      "version": "1.21.62",
+      "down": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Minecraft.ipa",
       "dev": "@6ky_l-Team",
       "category": "Hacked Apps",
       "description": "Minecraft Free, Paid on AppStore SUPPORT SIGN IN ONLY FOR TrollStore",
