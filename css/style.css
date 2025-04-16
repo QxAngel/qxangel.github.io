@@ -1,0 +1,133 @@
+body {
+    background-color: #1f1f1f;
+    color: red !important;
+}
+
+.card {
+    margin-bottom: 1em;
+}
+
+.thumbnail {
+    margin-bottom: 2em;
+}
+
+.list-group {
+    margin-bottom: 2em;
+}
+
+.disable-hover {
+    pointer-events: none;
+}
+
+.link-item {
+    list-style-type: none;
+    padding: 17px 15px;
+    display: block;
+    color: #4f89bb !important;
+    text-align: left;
+}
+
+.link-item:hover {
+    border: 1px solid #f5f5f5;
+    background-color: #f5f5f5;
+}
+
+html.can-touch .link-item:hover {
+    background-color: #ff000;
+}
+
+html.can-touch .link-item:active {
+    background-color: #ff000;
+}
+
+.fa {
+    font-size: 16px;
+    margin-left: 5px;
+    margin-right: 10px;
+}
+
+#logo {
+    max-width: 100%; 
+    height: auto;  
+    width: 50px;     
+    height: 50px;    
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+}
+
+.container h1 img {
+    margin-right: 10px;
+}
+
+.container h1 span {
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+.btn-primary,
+.btn-secondary,
+.custom-btn {
+    background-color: #000000;
+    color: #ff0000;
+    border: 1px solid #ffffff;
+    margin-right: 3px;
+}
+
+.btn-primary:hover,
+.btn-secondary:hover,
+.custom-btn:hover {
+    background-color: #ff0000;
+    border: 1px solid #ffffff;
+}
+
+.btn-primary:active,
+.btn-secondary:active,
+.custom-btn:active {
+    background-color: #004080;
+    border: 1px solid #004080;
+}
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1f1f1f;
+        color: white;
+    }
+
+    .card-header {
+        background-color: #000000;
+    }
+
+    .card-body {
+        background-color: #1f1f1f;
+    }
+
+    .jumbotron {
+        background-color: #2f2f2f;
+    }
+
+    .list-group-item {
+        background-color: #1f1f1f;
+        border-color: #2f2f2f;
+    }
+
+    html.can-touch .link-item:hover {
+        background-color: #1f1f1f;
+    }
+
+    html.can-touch .link-item:active {
+        background-color: #1f1f1f;
+    }
+}
+
+.card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-description {
+    margin-top: 20px;
+    color: #666;
+}
