@@ -17,6 +17,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 62399595,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -32,6 +33,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 64703976,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -47,6 +49,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61992050,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -62,6 +65,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 62303529,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -77,6 +81,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61543963,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -92,6 +97,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 62902372,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -107,6 +113,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61487884,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -122,6 +129,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61644459,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -137,6 +145,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 63453554,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -152,6 +161,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 62081977,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -167,21 +177,23 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61925371,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
         {
             "name": "Animock",
             "bundleIdentifier": "com.hassantaleb.mockup",
-            "trackId": "6471911398",
+            "trackId": "6471911398", 
             "developerName": "@6ky_l-Team",
             "version": "3.1.5",
-            "versionDate": "2025-07-08",
+            "versionDate": "2025-07-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Animock.ipa",
             "localizedDescription": "Animock Pro Cracked",
             "iconURL": "https://github.com/user-attachments/assets/b51e4efa-6376-4c95-bd07-c1dbd7ea93d6",
             "tintColor": "FF0000",
-            "size": 56732088,
+            "size": 5673208,
+            "minOS": "16.0",
             "screenshotURLs": [
             ]
         },
@@ -197,6 +209,7 @@
             "iconURL": "https://github.com/user-attachments/assets/3fb8931d-7d40-4b2a-8c57-e13e8c5b4dec",
             "tintColor": "FF0000",
             "size": 589868580,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -211,6 +224,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/63b62095-f013-493e-b504-4c59113a70da",
             "tintColor": "FF0000",
             "size": 504135,
+            "minOS": "14.0",
             "screenshotURLs": [
             ]
         },
@@ -225,6 +239,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/392477a6-a78c-42b4-8eb1-ca521924cdb9",
             "tintColor": "FF0000",
             "size": 7522792,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -235,10 +250,11 @@
             "version": "1.0",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Scarlet.ipa",
-            "localizedDescription": "This is the standard version of Scarlet. Allowing you to tweak and sideload your apps along with import your own certificates or use with a paid developer account entirely computerless.",
+            "localizedDescription": "This is the standard version of Scarlet. Allowing you to tweak and sideload your apps along with import your own certificates or use with a paid developer account entirely computerless",
             "iconURL": "https://github.com/user-attachments/assets/2a968c0f-d4fa-44ae-8aad-bb93fdbfb27c",
             "tintColor": "FF0000",
             "size": 15515487,
+            "minOS": "13.0",
             "screenshotURLs": [
             ]
         },
@@ -254,6 +270,7 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/1663d04b-6496-4dd8-adbf-3453f6174e9c",
             "tintColor": "FF0000",
             "size": 81791281,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
@@ -264,10 +281,11 @@
             "version": "2.0",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/HDFlix.ipa",
-            "localizedDescription": "Netflix+, Apple Tv+, Amazon Prime, Hulu, Disney+, HBO, AMC, Paramount+. All In One App Cracked...",
+            "localizedDescription": "Netflix+, Apple Tv+, Amazon Prime, Hulu, Disney+, HBO, AMC, Paramount+. All In One App Cracked",
             "iconURL": "https://github.com/user-attachments/assets/f84fdc7f-7a3a-47e8-8edd-716c62bf4a7d", 
             "tintColor": "FF0000",
             "size": 14688170,
+            "minOS": "11.0",
             "screenshotURLs": [
             ]
         }
