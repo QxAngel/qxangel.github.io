@@ -70,7 +70,6 @@ body {
   padding: 0px;
 }
 
-
 .app-card {
   display: flex;
   align-items: center;
@@ -144,8 +143,8 @@ body {
 }
 
 .dot.version::before { background-color: #ff0000; }
-.dot.size::before { background-color: #0000ff; }
 .dot.date::before { background-color: #ea00ff; }
+.dot.description::before { background-color: #0000ff; }
 
 
 /* DropDown Button ("Add This Repo") */
@@ -256,6 +255,28 @@ body {
   border-radius: 5px;
 }
 
+.btn.add-json-url {
+  border: 2px solid #b700ff; 
+  color: #b700ff; 
+  background-color: transparent;
+  border-radius: 10px;
+  justify-content: center;
+  gap: 8px;
+}
+
+.btn.add-json-url:hover {
+  background-color: #5d307a8c;
+}
+
+.btn.add-json-url img {
+  width: 20px;
+  height: 20px;
+  object-fit: contain;
+  pointer-events: none;
+  border-radius: 5px;
+}
+
+
 
 /* App Info */
 .hidden {
@@ -319,6 +340,10 @@ body {
 #modal-content p {
   margin: 4px 0;
   font-size: 14px;
+}
+
+.modal-app-name {
+  text-align: center;
 }
 
 
@@ -419,6 +444,21 @@ body {
   stroke: #ffffff;
   position: static;
   display: block;
+}
+
+.install-copy-url {
+  color: #b700ff;
+  border: 2px solid #b700ff;
+  background-color: transparent;
+  border-radius: 8px;
+  font-weight: bold;
+  user-select: none;
+  cursor: pointer;
+  transition: background-color 0.2s, color 0.2s;
+}
+
+.install-copy-url:hover {
+  background-color: #5d307a8c;
 }
 
 .install-scarlet {
