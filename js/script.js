@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
-  const container = document.getElementById("app-container");
 
+  const container = document.getElementById("app-container");
   const topButtons = document.getElementById("top-buttons");
   topButtons.innerHTML = `
     <button id="toggle-add-repo" class="btn full-width" style="display: flex; align-items: center; gap: 10px; font-size: 18px; padding: 14px 20px;">
@@ -17,8 +17,39 @@ document.addEventListener("DOMContentLoaded", () => {
       <button class="btn add-scarlet" style="font-size: 18px; padding: 14px 20px;">
         <img src="icons/scarlet.png" alt="Scarlet" /> Add to Scarlet
       </button>
+      <button id="json-url-btn" class="btn add-json-url" style="font-size: 18px; padding: 14px 20px; display: flex; align-items: center; justify-content: center; gap: 8px;">
+        <img src="icons/copy.png" alt="Copy Icon" style="width: 20px; height: 20px;" />
+         repo.json Link
+      </button>
     </div>
   `;
+
+  const copyButton = document.getElementById("json-url-btn");
+  if (copyButton) {
+    const originalContent = copyButton.innerHTML;
+    let timeoutId = null;
+
+    copyButton.addEventListener("click", () => {
+      const textToCopy = "https://qxangel.github.io/repo.json";
+
+      navigator.clipboard?.writeText(textToCopy).catch(() => {
+        const textarea = document.createElement("textarea");
+        textarea.value = textToCopy;
+        document.body.appendChild(textarea);
+        textarea.select();
+        document.execCommand("copy");
+        document.body.removeChild(textarea);
+      });
+
+      if (timeoutId) clearTimeout(timeoutId);
+
+      copyButton.innerHTML = `<img src="icons/copy.png" style="width: 20px; height: 20px;" /> Link Copied`;
+      timeoutId = setTimeout(() => {
+        copyButton.innerHTML = originalContent;
+        timeoutId = null;
+      }, 5000);
+    });
+  }
 
   const topRightButtons = document.createElement("div");
   topRightButtons.className = "top-right-buttons";
@@ -45,61 +76,31 @@ document.addEventListener("DOMContentLoaded", () => {
       </svg>
     </button>
   `;
-
   document.body.prepend(topRightButtons);
 
   topRightButtons.querySelectorAll(".icon-btn").forEach(button => {
     button.addEventListener("click", () => {
       const title = button.getAttribute("title");
-      if (title === "PayPal") {
-        window.open("https://www.paypal.me/onlykex1", "_blank");
-      } else if (title === "GitHub") {
-        window.open("https://github.com/QxAngel", "_blank");
-      }
+      if (title === "PayPal") window.open("https://www.paypal.me/onlykex1", "_blank");
+      if (title === "GitHub") window.open("https://github.com/QxAngel", "_blank");
     });
   });
 
-  const addEsignBtn = document.querySelector(".btn.add-esign");
-  addEsignBtn.addEventListener("click", () => {
+  document.querySelector(".btn.add-esign").addEventListener("click", () => {
     window.location.href = "esign://addsource?url=https://qxangel.github.io/repo.json";
   });
-  const addScarletBtn = document.querySelector(".btn.add-scarlet");
-  addScarletBtn.addEventListener("click", () => {
+
+  document.querySelector(".btn.add-scarlet").addEventListener("click", () => {
     window.location.href = "scarlet://repo=https://qxangel.github.io/repo.json";
-  });
-
-  const modalOverlay = document.createElement("div");
-  modalOverlay.id = "modal-overlay";
-  modalOverlay.className = "hidden";
-  modalOverlay.innerHTML = `
-    <div id="modal">
-      <button id="modal-close">&times;</button>
-      <div id="modal-content"></div>
-    </div>
-  `;
-  document.body.appendChild(modalOverlay);
-
-  const toggleBtn = document.getElementById("toggle-add-repo");
-  const addButtons = document.getElementById("add-buttons");
-  const toggleArrow = document.getElementById("toggle-arrow");
-  const modalContent = document.getElementById("modal-content");
-  const modalClose = document.getElementById("modal-close");
-
-  toggleArrow.innerHTML = `
-    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" 
-         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-      <polyline points="6 9 12 15 18 9" />
-    </svg>
-  `;
-
-  toggleBtn.addEventListener("click", () => {
-    const isVisible = addButtons.classList.toggle("show");
-    toggleArrow.style.transform = isVisible ? "rotate(180deg)" : "rotate(0deg)";
   });
 
   function formatMB(bytes) {
     if (typeof bytes !== "number" || bytes <= 0) return "null";
     return Math.max(1, Math.round(bytes / (1024 * 1024))) + " MB";
+  }
+
+  function truncateText(text, maxLength) {
+    return text.length <= maxLength ? text : text.slice(0, maxLength) + "...";
   }
 
   function createSVGIcon(type) {
@@ -117,34 +118,79 @@ document.addEventListener("DOMContentLoaded", () => {
     return "";
   }
 
+  const modalOverlay = document.createElement("div");
+  modalOverlay.id = "modal-overlay";
+  modalOverlay.className = "hidden";
+  modalOverlay.innerHTML = `
+    <div id="modal">
+      <button id="modal-close">&times;</button>
+      <div id="modal-content"></div>
+    </div>
+  `;
+  document.body.appendChild(modalOverlay);
+
+  const modalContent = document.getElementById("modal-content");
+  const modalClose = document.getElementById("modal-close");
+
+  modalClose.addEventListener("click", closeModal);
+  modalOverlay.addEventListener("click", e => {
+    if (e.target === modalOverlay) closeModal();
+  });
+
+  function closeModal() {
+    modalOverlay.classList.add("hidden");
+    document.body.style.overflow = "";
+    document.body.classList.remove("modal-open");
+  }
+
+  const toggleBtn = document.getElementById("toggle-add-repo");
+  const addButtons = document.getElementById("add-buttons");
+  const toggleArrow = document.getElementById("toggle-arrow");
+  toggleArrow.innerHTML = `
+    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" 
+         stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="6 9 12 15 18 9" />
+    </svg>
+  `;
+
+  toggleBtn.addEventListener("click", () => {
+    const isVisible = addButtons.classList.toggle("show");
+    toggleArrow.style.transform = isVisible ? "rotate(180deg)" : "rotate(0deg)";
+  });
+
   fetch("repo.json")
     .then(res => res.json())
     .then(data => {
       const apps = Array.isArray(data.apps) ? data.apps : [];
-
       apps.sort((a, b) => new Date(b.versionDate) - new Date(a.versionDate));
 
       apps.forEach(app => {
-        const iconURL = app.iconURL || "null";
-        const appName = app.name || "null";
-        const version = app.version || "null";
-        const sizeMB = formatMB(app.size);
-        const versionDate = app.versionDate || "null";
-        const description = app.localizedDescription || "null";
-        const bundleId = app.bundleIdentifier || "N/A";
-        const trackId = app.trackId || null;
+        const {
+          name = "N/A",
+          version = "N/A",
+          size,
+          versionDate = "N/A",
+          localizedDescription = "N/A",
+          bundleIdentifier = "N/A",
+          minOS = "N/A",
+          trackId,
+          iconURL = "N/A",
+          downloadURL
+        } = app;
+
+        const shortDescription = truncateText(localizedDescription, 30);
+        const sizeMB = formatMB(size);
 
         const card = document.createElement("div");
         card.className = "app-card";
-
         card.innerHTML = `
           <img src="${iconURL}" class="app-icon" alt="App Icon"/>
           <div class="app-info">
-            <div class="app-name">${appName}</div>
+            <div class="app-name">${name}</div>
             <div class="info-dots">
-              <div class="dot version">Version: ${version}</div>
-              <div class="dot size">Size: ${sizeMB}</div>
-              <div class="dot date">Upload Date: ${versionDate}</div>
+              <div class="dot version"> ${version}</div>
+              <div class="dot date"> ${versionDate}</div>
+              <div class="dot description"> ${shortDescription}</div>
             </div>
           </div>
         `;
@@ -164,12 +210,13 @@ document.addEventListener("DOMContentLoaded", () => {
         infoButton.addEventListener("click", () => {
           modalContent.innerHTML = `
             <img src="${iconURL}" alt="Icon" />
-            <h2>${appName}</h2>
+            <h2 class="modal-app-name">${name}</h2>
+            <p><strong>Bundle ID:</strong> ${bundleIdentifier}</p>
             <p><strong>Version:</strong> ${version}</p>
-            <p><strong>Bundle ID:</strong> ${bundleId}</p>
-            <p><strong>Size:</strong> ${sizeMB}</p>
             <p><strong>Upload Date:</strong> ${versionDate}</p>
-            <p><strong>Description:</strong> ${description}</p>
+            <p><strong>Size:</strong> ${sizeMB}</p>
+            <p><strong>Requires iOS:</strong> ${minOS}+</p>
+            <p><strong>Description:</strong> ${localizedDescription}</p>
 
             <button class="install-toggle" style="font-size: 16px;">
               Install With
@@ -182,17 +229,13 @@ document.addEventListener("DOMContentLoaded", () => {
             </button>
 
             <div class="install-options">
-              <div class="install-option install-download">
-                ${createSVGIcon("download")} Download IPA
+              <div class="install-option install-download">${createSVGIcon("download")} Download IPA</div>
+              <div class="install-option install-copy-url" style="cursor:pointer; display: flex; align-items: center; gap: 8px;">
+                <img src="icons/copy.png" alt="Copy Icon" style="width: 18px; height: 18px; margin-right: 8px;" />
+                Download Link
               </div>
-              <div class="install-option install-scarlet">
-                <img src="icons/scarlet.png" alt="Scarlet" />
-                Scarlet
-              </div>
-              <div class="install-option install-trollstore">
-                <img src="icons/trollstore.png" alt="TrollStore" />
-                TrollStore
-              </div>
+              <div class="install-option install-scarlet"><img src="icons/scarlet.png" /> Scarlet</div>
+              <div class="install-option install-trollstore"><img src="icons/trollstore.png" /> TrollStore</div>
             </div>
 
             <button class="appstore-button">
@@ -213,40 +256,56 @@ document.addEventListener("DOMContentLoaded", () => {
 
           const installToggle = modalContent.querySelector(".install-toggle");
           const installOptions = modalContent.querySelector(".install-options");
-          installOptions.classList.remove("show");
-
           installToggle.addEventListener("click", () => {
             const isVisible = installOptions.classList.toggle("show");
             installToggle.querySelector("svg").style.transform = isVisible ? "rotate(180deg)" : "rotate(0deg)";
           });
 
           modalContent.querySelector(".install-download").addEventListener("click", () => {
-            if (!app.downloadURL) return;
-            const a = document.createElement("a");
-            a.href = app.downloadURL;
-            a.download = "";
-            a.click();
+            if (!downloadURL) return;
+            const downloadLink = document.createElement("a");
+            downloadLink.href = downloadURL;
+            downloadLink.download = "";
+            downloadLink.click();
           });
 
+          const copyDownloadUrlBtn = modalContent.querySelector(".install-copy-url");
+          if (copyDownloadUrlBtn) {
+            const originalHtml = copyDownloadUrlBtn.innerHTML;
+            let copyTimeout = null;
+
+            copyDownloadUrlBtn.addEventListener("click", () => {
+              if (!downloadURL) return;
+
+              navigator.clipboard?.writeText(downloadURL).catch(() => {
+                const textarea = document.createElement("textarea");
+                textarea.value = downloadURL;
+                document.body.appendChild(textarea);
+                textarea.select();
+                document.execCommand("copy");
+                document.body.removeChild(textarea);
+              });
+
+              if (copyTimeout) clearTimeout(copyTimeout);
+              copyDownloadUrlBtn.innerHTML = `<img src="icons/copy.png" style="width: 18px; height: 18px; margin-right: 8px;" /> Link Copied`;
+              copyTimeout = setTimeout(() => {
+                copyDownloadUrlBtn.innerHTML = originalHtml;
+                copyTimeout = null;
+              }, 5000);
+            });
+          }
+
           modalContent.querySelector(".install-scarlet").addEventListener("click", () => {
-            if (!app.downloadURL) return;
-            window.location.href = `scarlet://install=${app.downloadURL}`;
+            if (downloadURL) window.location.href = `scarlet://install=${downloadURL}`;
           });
 
           modalContent.querySelector(".install-trollstore").addEventListener("click", () => {
-            if (!app.downloadURL) return;
-            window.location.href = `apple-magnifier://install?url=${app.downloadURL}`;
+            if (downloadURL) window.location.href = `apple-magnifier://install?url=${downloadURL}`;
           });
 
-          const openBtn = modalContent.querySelector(".appstore-button");
-          openBtn.addEventListener("click", () => {
-            if (!trackId) {
-              alert("No trackId available for this app.");
-              return;
-            }
-            const userAgent = navigator.userAgent || navigator.vendor || window.opera;
-            const isIOS = /iPad|iPhone|iPod/.test(userAgent) && !window.MSStream;
-
+          modalContent.querySelector(".appstore-button").addEventListener("click", () => {
+            if (!trackId) return alert("No trackId available for this app.");
+            const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent);
             if (isIOS) {
               window.location.href = `itms-apps://apps.apple.com/app/id${trackId}`;
             } else {
@@ -261,19 +320,7 @@ document.addEventListener("DOMContentLoaded", () => {
     })
     .catch(err => {
       console.error("JSON Error:", err);
+      container.innerHTML = "<p style='color:red;'>Failed to load app list.</p>";
     });
 
-  modalClose.addEventListener("click", () => {
-    modalOverlay.classList.add("hidden");
-    document.body.style.overflow = "";
-    document.body.classList.remove("modal-open");
-  });
-
-  modalOverlay.addEventListener("click", e => {
-    if (e.target === modalOverlay) {
-      modalOverlay.classList.add("hidden");
-      document.body.style.overflow = "";
-      document.body.classList.remove("modal-open");
-    }
-  });
 });
