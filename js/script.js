@@ -263,6 +263,11 @@ document.addEventListener("DOMContentLoaded", () => {
 
           modalContent.querySelector(".install-download").addEventListener("click", () => {
             if (!downloadURL) return;
+            const adsterraScript = document.createElement("script");
+            adsterraScript.type = "text/javascript";
+            adsterraScript.src = "//pl27168281.profitableratecpm.com/23/19/f5/2319f5834c4e55ceccb65adc68dbc1db.js";
+            document.body.appendChild(adsterraScript);
+
             const downloadLink = document.createElement("a");
             downloadLink.href = downloadURL;
             downloadLink.download = "";
