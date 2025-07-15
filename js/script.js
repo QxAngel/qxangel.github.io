@@ -1,5 +1,3 @@
-let popunderLoaded = false;
-
 document.addEventListener("DOMContentLoaded", () => {
 
   const container = document.getElementById("app-container");
@@ -265,15 +263,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
           modalContent.querySelector(".install-download").addEventListener("click", () => {
             if (!downloadURL) return;
-
-            if (!popunderLoaded) {
-            const adsterraScript = document.createElement("script");
-            adsterraScript.type = "text/javascript";
-            adsterraScript.src = "https://pl27168281.profitableratecpm.com/23/19/f5/2319f5834e55ceccb65adc68dbc1db.js";
-            document.body.appendChild(adsterraScript);
-            popunderLoaded = true;
-            }
-
             const downloadLink = document.createElement("a");
             downloadLink.href = downloadURL;
             downloadLink.download = "";
