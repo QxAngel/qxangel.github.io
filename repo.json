@@ -11,7 +11,23 @@
             "trackId": "995999703",
             "developerName": "@6ky_l",
             "version": "2.30.4",
-            "versionDate": "2025-07-21",
+            "versionDate": "2025-07-27",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.qxanarky+anarky+xelahot.ipa",
+            "localizedDescription": "QxAnarky + anarky + xelahot",
+            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
+            "tintColor": "FF0000",
+            "size": 62399595,
+            "minOS": "11.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Agar.io",
+            "bundleIdentifier": "com.miniclip.agar.io",
+            "trackId": "995999703",
+            "developerName": "@6ky_l",
+            "version": "2.30.4",
+            "versionDate": "2025-07-27",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.qxanarky+kahraba+shark.ipa",
             "localizedDescription": "QxAnarky + Kahraba + Shark",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
@@ -27,7 +43,7 @@
             "trackId": "995999703",
             "developerName": "@6ky_l",
             "version": "2.30.4",
-            "versionDate": "2025-07-21",
+            "versionDate": "2025-07-27",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.kahraba+shark.ipa",
             "localizedDescription": "Kahraba + Shark",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
@@ -53,23 +69,7 @@
             "screenshotURLs": [
             ]
         },
-        {  
-            "name": "Agar.io",
-            "bundleIdentifier": "com.miniclip.agar.io.shark",
-            "trackId": "995999703",
-            "developerName": "@ytb.shark",
-            "version": "2.30.4",
-            "versionDate": "2025-07-21",
-            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/SharkMod_1.7.7.ipa",
-            "localizedDescription": "Shark mod",
-            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
-            "tintColor": "FF0000",
-            "size": 61992050,
-            "minOS": "11.0",
-            "screenshotURLs": [
-            ]
-        },
-        {      
+        {       
             "name": "Agar.io",
             "bundleIdentifier": "com.miniclip.agar.io",
             "trackId": "995999703",
@@ -145,22 +145,6 @@
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
             "size": 61644459,
-            "minOS": "11.0",
-            "screenshotURLs": [
-            ]
-        },
-        {
-            "name": "Agar.io",
-            "bundleIdentifier": "com.miniclip.agar.io",
-            "trackId": "995999703",
-            "developerName": "@6ky_l-Team",
-            "version": "2.30.4",
-            "versionDate": "2025-07-16",
-            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.anarky+igg+xelahot.ipa",
-            "localizedDescription": "anarky + igg + xelahot",
-            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
-            "tintColor": "FF0000",
-            "size": 63453554,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
