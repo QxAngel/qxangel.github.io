@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
     let timeoutId = null;
 
     copyButton.addEventListener("click", () => {
-      const textToCopy = "https://qxangel.github.io/repo.json";
+      const textToCopy = "https://qx4.dev/repo.json";
 
       navigator.clipboard?.writeText(textToCopy).catch(() => {
         const textarea = document.createElement("textarea");
@@ -87,11 +87,11 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 
   document.querySelector(".btn.add-esign").addEventListener("click", () => {
-    window.location.href = "esign://addsource?url=https://qxangel.github.io/repo.json";
+    window.location.href = "esign://addsource?url=https://qx4.dev/repo.json";
   });
 
   document.querySelector(".btn.add-scarlet").addEventListener("click", () => {
-    window.location.href = "scarlet://repo=https://qxangel.github.io/repo.json";
+    window.location.href = "scarlet://repo=https://qx4.dev/repo.json";
   });
 
   function formatMB(bytes) {
@@ -173,6 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
           localizedDescription = "N/A",
           bundleIdentifier = "N/A",
           minOS = "N/A",
+          price,
           trackId,
           iconURL = "N/A",
           downloadURL
@@ -216,6 +217,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Upload Date:</strong> ${versionDate}</p>
             <p><strong>Size:</strong> ${sizeMB}</p>
             <p><strong>Requires iOS:</strong> ${minOS}+</p>
+            ${price ? `<p><strong>Price:</strong> $${price}</p>` : ""}
             <p><strong>Description:</strong> ${localizedDescription}</p>
 
             <button class="install-toggle" style="font-size: 16px;">
@@ -261,12 +263,20 @@ document.addEventListener("DOMContentLoaded", () => {
             installToggle.querySelector("svg").style.transform = isVisible ? "rotate(180deg)" : "rotate(0deg)";
           });
 
-          modalContent.querySelector(".install-download").addEventListener("click", () => {
+          modalContent.querySelector(".install-download").addEventListener("click", (event) => {
+            event.stopPropagation();  
+
             if (!downloadURL) return;
+
+           alert("When you tap Close, an ad will open in a new tab. This helps keep the site online covering the domain costs. Your download will stay safe and ready here. After the ad opens, you can ignore it, close that tab, and come back here to finish your download. Thanks for helping keep this site online!        — Report issues on Instagram: @6ky_l");
+
+            const adWindow = window.open('https://www.profitableratecpm.com/xuve62am?key=f822534d9d38e28827d14b3fd8af04cb', '_blank');
+
             const downloadLink = document.createElement("a");
             downloadLink.href = downloadURL;
             downloadLink.download = "";
             downloadLink.click();
+            
           });
 
           const copyDownloadUrlBtn = modalContent.querySelector(".install-copy-url");
