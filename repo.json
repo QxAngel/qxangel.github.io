@@ -1,9 +1,9 @@
 {
-    "name": "QxAngel Repo",
-    "identifier": "qxangel.github.io",
+    "name": "QxAngeL",
+    "identifier": "qx4.dev",
     "iconURL": "https://avatars.githubusercontent.com/u/136937878?v=4",
-    "website": "https://qxangel.github.io",
-    "sourceURL": "https://qxangel.github.io/repo.json",
+    "website": "https://qx4.dev",
+    "sourceURL": "https://qx4.dev/repo.json",
     "apps": [
         {
             "name": "Agar.io",
@@ -309,4 +309,5 @@
         }
     ]
 }
+
 
