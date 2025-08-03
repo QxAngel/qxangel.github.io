@@ -281,8 +281,8 @@
             "bundleIdentifier": "com.spotify.client",
             "trackId": "324684580",
             "developerName": "@6ky_l-Team",
-            "version": "9.0.58",
-            "versionDate": "2025-07-08",
+            "version": "9.0.66",
+            "versionDate": "2025-08-03",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/EeveeSpotify.ipa",
             "localizedDescription": "EeveeSpotify This tweak makes Spotify think you have a Premium subscription, granting free listening, just like Spotilife, and provides some additional features like custom lyrics",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/1663d04b-6496-4dd8-adbf-3453f6174e9c",
@@ -309,5 +309,6 @@
         }
     ]
 }
+
 
 
