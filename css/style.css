@@ -346,6 +346,16 @@ body {
   text-align: center;
 }
 
+.trollstore-warning {
+  color: red;
+  font-weight: bold;
+  margin: 8px 0;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
 
 /* Install With Buttons */
 .install-toggle {
@@ -529,3 +539,4 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
