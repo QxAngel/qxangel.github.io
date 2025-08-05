@@ -173,6 +173,7 @@ document.addEventListener("DOMContentLoaded", () => {
           localizedDescription = "N/A",
           bundleIdentifier = "N/A",
           minOS = "N/A",
+          forTrollStore,
           price,
           trackId,
           iconURL = "N/A",
@@ -217,6 +218,7 @@ document.addEventListener("DOMContentLoaded", () => {
             <p><strong>Upload Date:</strong> ${versionDate}</p>
             <p><strong>Size:</strong> ${sizeMB}</p>
             <p><strong>Requires iOS:</strong> ${minOS}+</p>
+            ${forTrollStore ? `<p class="trollstore-warning">⚠️ Only works on TrollStore</p>` : ""}
             ${price ? `<p><strong>Price:</strong> $${price}</p>` : ""}
             <p><strong>Description:</strong> ${localizedDescription}</p>
 
@@ -343,4 +345,5 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
 
