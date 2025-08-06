@@ -277,6 +277,38 @@ body {
 }
 
 
+/* Button ("Search Apps") */
+.search-container {
+  display: flex;
+  justify-content: center;
+  margin: -10px 0 10px 0;
+  width: 100%;
+}
+
+#search-bar {
+  width: 750px;
+  max-width: 100%;
+  padding: 12px 16px;
+  font-size: 18px;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 2px solid #ff0000;
+  box-sizing: border-box;
+  color: #ff0000;
+  caret-color: #ffffff;
+  text-align: center;
+}
+
+#search-bar::placeholder {
+  color: #ff0000;
+}
+
+#search-bar:focus {
+  outline: none;
+  border-color: #ff0000;
+  box-shadow: none;
+}
+
 
 /* App Info */
 .hidden {
@@ -539,4 +571,5 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
 
