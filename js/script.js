@@ -359,7 +359,3 @@ searchInput.addEventListener("input", function () {
     });
 
 });
-
-
-
-
