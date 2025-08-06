@@ -180,7 +180,7 @@ document.addEventListener("DOMContentLoaded", () => {
           downloadURL
         } = app;
 
-        const shortDescription = truncateText(localizedDescription, 30);
+        const shortDescription = truncateText(localizedDescription, 25);
         const sizeMB = formatMB(size);
 
         const card = document.createElement("div");
@@ -345,5 +345,6 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
 
 
