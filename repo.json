@@ -270,7 +270,7 @@
             "version": "2.207",
             "versionDate": "2025-07-21",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Geometry.ipa",
-            "localizedDescription": "",
+            "localizedDescription": "Jump and fly your way through danger in this rhythm-based action platformer",
             "iconURL": "https://github.com/user-attachments/assets/c442f6c6-c190-4bf2-9527-1928129b7393",
             "tintColor": "FF0000",
             "size": 154114236,
@@ -501,3 +501,4 @@
         }
     ]
 }
+
