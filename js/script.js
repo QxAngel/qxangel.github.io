@@ -1,6 +1,20 @@
 document.addEventListener("DOMContentLoaded", () => {
 
   const container = document.getElementById("app-container");
+
+  const searchInput = document.getElementById("search-bar");
+
+searchInput.addEventListener("input", function () {
+  const searchValue = this.value.toLowerCase();
+  const cards = document.querySelectorAll(".app-card");
+
+  cards.forEach(card => {
+    const cardText = card.textContent.toLowerCase();
+    const matches = cardText.includes(searchValue);
+    card.style.display = matches ? "" : "none";
+  });
+});
+  
   const topButtons = document.getElementById("top-buttons");
   topButtons.innerHTML = `
     <button id="toggle-add-repo" class="btn full-width" style="display: flex; align-items: center; gap: 10px; font-size: 18px; padding: 14px 20px;">
@@ -345,6 +359,7 @@ document.addEventListener("DOMContentLoaded", () => {
     });
 
 });
+
 
 
 
