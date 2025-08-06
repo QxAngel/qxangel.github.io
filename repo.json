@@ -182,6 +182,87 @@
             ]
         },
         {
+            "name": "TikTok",
+            "bundleIdentifier": "com.zhiliaoapp.musically",
+            "trackId": "835599320", 
+            "developerName": "@6ky_l-Team",
+            "version": "41.0.0",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TikTok.ipa",
+            "localizedDescription": "ACTikTok Tweak",
+            "iconURL": "https://github.com/user-attachments/assets/ce8a813d-8040-4904-b2ba-8c6c107dd22f",
+            "tintColor": "FF0000",
+            "size": 303288266,
+            "minOS": "12.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "YouTube",
+            "bundleIdentifier": "com.google.ios.youtube",
+            "trackId": "544007664", 
+            "developerName": "@6ky_l-Team",
+            "version": "20.12.4",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/YouTube.ipa",
+            "localizedDescription": "YTLite + Youpip + YouQuality and  much more tweaks. Premium features for free",
+            "iconURL": "https://github.com/user-attachments/assets/a6bfdc6d-f9b2-44a8-a659-f283a29e01b5",
+            "tintColor": "FF0000",
+            "size": 113203886,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "YouTube Music",
+            "bundleIdentifier": "com.google.ios.youtubemusic",
+            "trackId": "1017492454", 
+            "developerName": "@6ky_l-Team",
+            "version": "8.31.2",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/YouTubeMusic.ipa",
+            "localizedDescription": "YouTube Music ultimate Premium features for free",
+            "iconURL": "https://github.com/user-attachments/assets/916f458f-7f16-4c42-8f01-1201ff7591b6",
+            "tintColor": "FF0000",
+            "size": 95463644,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Instagram",
+            "bundleIdentifier": "com.burbn.instagram",
+            "trackId": "389801252", 
+            "developerName": "@6ky_l-Team",
+            "version": "369.0.0",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Instagram.ipa",
+            "localizedDescription": "The all-in-one tweak for Instagram. Regram B23 Cracked",
+            "iconURL": "https://github.com/user-attachments/assets/94c4fd8d-0ea4-407c-8bf0-b886885d4a1c",
+            "tintColor": "FF0000",
+            "size": 203825684,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "RGB Keyboard",
+            "bundleIdentifier": "com.mck.RGB-Keyboard",
+            "trackId": "1566128897", 
+            "developerName": "@6ky_l-Team",
+            "version": "2.9.1",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/RGB.Keyboard.ipa",
+            "localizedDescription": "Get the RGB keyboard experience on your device",
+            "iconURL": "https://github.com/user-attachments/assets/7261249e-6dfe-4b2b-b92a-69135dc0deb2",
+            "tintColor": "FF0000",
+            "size": 2229528,
+            "minOS": "14.0",
+            "price": "1.99",
+            "screenshotURLs": [
+            ]
+        },
+        {
             "name": "Geometry Dash",
             "bundleIdentifier": "com.robtop.geometryjump",
             "trackId": "625334537", 
@@ -219,8 +300,8 @@
             "bundleIdentifier": "com.mojang.minecraftpe",
             "trackId": "479516143",
             "developerName": "@6ky_l-Team",
-            "version": "1.21.94",
-            "versionDate": "2025-08-03",
+            "version": "1.21.100",
+            "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Minecraft.ipa",
             "localizedDescription": "Build, explore, and survive in a fully open world. Gather resources, craft tools, and create anything you imagine",
             "iconURL": "https://github.com/user-attachments/assets/3fb8931d-7d40-4b2a-8c57-e13e8c5b4dec",
@@ -306,9 +387,117 @@
             "minOS": "11.0",
             "screenshotURLs": [
             ]
+        },
+        {
+            "name": "Filza",
+            "bundleIdentifier": "com.tigisoftware.Filza",
+            "developerName": "@6ky_l-Team",
+            "version": "4.0",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Filza.tipa",
+            "localizedDescription": "File Manager for iPhone, iPad, iPod Touch Cracked",
+            "iconURL": "https://github.com/user-attachments/assets/09649709-86e8-4ee1-bb5c-b5dd4b68f182", 
+            "tintColor": "FF0000",
+            "size": 13925676,
+            "forTrollStore": true,
+            "minOS": "7.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "AppStore++",
+            "bundleIdentifier": "com.cokepokes.AppStorePlus",
+            "developerName": "@6ky_l-Team",
+            "version": "1.0.3",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/AppStore++.tipa",
+            "localizedDescription": "Allows you to downgrade/upgrade apps in the AppStore",
+            "iconURL": "https://github.com/user-attachments/assets/c628b4d7-3c72-49eb-b06f-a861fa386002", 
+            "tintColor": "FF0000",
+            "size": 17588239,
+            "forTrollStore": true,
+            "minOS": "10.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "TrollInstallerX",
+            "bundleIdentifier": "com.Alfie.TrollInstallerX",
+            "developerName": "@6ky_l-Team",
+            "version": "1.0.3",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollInstallerX.ipa",
+            "localizedDescription": "Universal TrollStore installer. It focuses on being extremely reliable and easy to use. It is also very fast, being able to install TrollStore and/or its persistence helper in a matter of seconds on the latest devices",
+            "iconURL": "https://github.com/user-attachments/assets/b2e00cc9-34c2-45d2-a132-3e5d6ca949b8", 
+            "tintColor": "FF0000",
+            "size": 6889214,
+            "minOS": "14.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "TrollRecorder",
+            "bundleIdentifier": "wiki.qaq.trapp",
+            "developerName": "@6ky_l-Team",
+            "version": "3.6",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollRecorder.tipa",
+            "localizedDescription": "Powerful and versatile recording app designed to meet all your recording needs. Whether you want to record calls, voice memos, or system audio, TrollRecorder has got you covered",
+            "iconURL": "https://github.com/user-attachments/assets/3ea47279-36a3-4f46-8555-b4bd2ad01d11", 
+            "tintColor": "FF0000",
+            "size": 16165907,
+            "forTrollStore": true,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "TrollFools",
+            "bundleIdentifier": "wiki.qaq.TrollFools",
+            "developerName": "@6ky_l-Team",
+            "version": "3.7",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollFools.tipa",
+            "localizedDescription": "In-place tweak injection with insert_dylib and ChOma",
+            "iconURL": "https://github.com/user-attachments/assets/48e68c0a-c672-42ed-acbb-2db431a5a1c5",
+            "tintColor": "FF0000",
+            "size": 6026777,
+            "forTrollStore": true,
+            "minOS": "14.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "CopyLog",
+            "bundleIdentifier": "me.tomt000.ts.copylog",
+            "developerName": "@6ky_l-Team",
+            "version": "1.7",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/CopyLog.tipa",
+            "localizedDescription": "Powerful clipboard history manager for iOS, it’s easy to use, works on both iPhone and iPad and will help you keep track of what you’ve copied on your device",
+            "iconURL": "https://github.com/user-attachments/assets/41a1ca39-03ea-41ba-9907-98436982d5e4", 
+            "tintColor": "FF0000",
+            "size": 6417480,
+            "forTrollStore": true,
+            "minOS": "14.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Dopamine",
+            "bundleIdentifier": "com.opa334.Dopamine",
+            "developerName": "@6ky_l-Team",
+            "version": "2.4.5",
+            "versionDate": "2025-08-05",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Dopamine.tipa",
+            "localizedDescription": "Jailbreak for arm64 (A8 - A11) and arm64e (A12 - A16, M1 - M2)Supported on devices on iOS 15.0 - 16.6.1* A rootless jailbreak",
+            "iconURL": "https://github.com/user-attachments/assets/b3b53786-0786-4fe2-9b19-0cf6e4ce3669", 
+            "tintColor": "FF0000",
+            "size": 53241819,
+            "forTrollStore": true,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
         }
     ]
 }
-
-
-
