@@ -9,10 +9,26 @@
             "name": "Agar.io",
             "bundleIdentifier": "com.miniclip.agar.io",
             "trackId": "995999703",
+            "developerName": "Xelahot",
+            "version": "2.30.5",
+            "versionDate": "2025-08-12",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.5.memedit.ipa",
+            "localizedDescription": "MemEdit An iOS memory analysis tool",
+            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
+            "tintColor": "FF0000",
+            "size": 55865331,
+            "minOS": "14.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Agar.io",
+            "bundleIdentifier": "com.miniclip.agar.io",
+            "trackId": "995999703",
             "developerName": "@6ky_l",
-            "version": "2.30.4",
-            "versionDate": "2025-07-27",
-            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.qxanarky+anarky+xelahot.ipa",
+            "version": "2.30.5",
+            "versionDate": "2025-08-12",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.5.qxanarky+anarky+xelahot.ipa",
             "localizedDescription": "QxAnarky + anarky + xelahot",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
@@ -26,9 +42,9 @@
             "bundleIdentifier": "com.miniclip.agar.io",
             "trackId": "995999703",
             "developerName": "@6ky_l",
-            "version": "2.30.4",
-            "versionDate": "2025-07-27",
-            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.4.qxanarky+kahraba+shark.ipa",
+            "version": "2.30.5",
+            "versionDate": "2025-08-12",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.5.qxanarky+kahraba+shark.ipa",
             "localizedDescription": "QxAnarky + Kahraba + Shark",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
@@ -43,7 +59,7 @@
             "trackId": "995999703",
             "developerName": "@6ky_l",
             "version": "2.30.5",
-            "versionDate": "2025-08-08",
+            "versionDate": "2025-08-12",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.5.shark.ipa",
             "localizedDescription": "Shark mod",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
@@ -59,7 +75,7 @@
             "trackId": "995999703",
             "developerName": "@6ky_l",
             "version": "2.30.5",
-            "versionDate": "2025-08-08",
+            "versionDate": "2025-08-12",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/2.30.5.kahraba+shark.ipa",
             "localizedDescription": "Kahraba + Shark",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
@@ -517,5 +533,6 @@
         }
     ]
 }
+
 
 
