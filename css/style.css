@@ -317,26 +317,25 @@ body {
 
 #modal-overlay {
   position: fixed;
-  top: 0; left: 0; right: 0; bottom: 0;
+  inset: 0;
   background: #00000099;
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 10000;
-  overflow: hidden;
 }
 
 #modal {
   background: #29314e;
-  border-radius: 10px;
+  border-radius: 12px;
   width: 320px;
-  max-width: 90%;
+  max-width: 92%;
   max-height: 80vh;
-  padding: 20px;
+  padding: 18px;
   position: relative;
   color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  box-shadow: 0 0 15px #000000cc;
+  box-shadow: 0 10px 30px #000000cc;
   overflow-y: auto;
   -webkit-overflow-scrolling: touch;
 }
@@ -344,47 +343,86 @@ body {
 #modal-close {
   position: absolute;
   top: 10px;
-  right: 15px;
+  right: 14px;
   background: none;
   border: none;
-  font-size: 28px;
+  font-size: 32px;
   color: #ff0000;
   cursor: pointer;
   line-height: 1;
-  width: 30px;
-  height: 30px;
+  width: 28px;
+  height: 28px;
 }
 
 #modal-content img {
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 80px;
-  height: 80px;
-  border-radius: 15px;
-  margin-bottom: 12px;
-}
-
-#modal-content h2 {
-  margin: 0 0 8px 0;
-}
-
-#modal-content p {
-  margin: 4px 0;
-  font-size: 14px;
+  margin: 0 auto 8px;
+  width: 70px;
+  height: 70px;
+  border-radius: 14px;
 }
 
 .modal-app-name {
   text-align: center;
+  font-size: 16px;
+  margin: -4px 0 2px;
+}
+
+.developer-name {
+  text-align: center;
+  font-size: 12px;
+  color: #ff0000;
+  margin-bottom: 10px;
+}
+
+.description-box {
+  background: #008cffa1;
+  border-radius: 8px;
+  padding: 10px;
+  margin-top: 12px;
+}
+
+.app-description {
+  font-size: 12px;
+  line-height: 1.45;
+  text-align: left;
+  margin: 0;
+}
+
+.info-grid {
+  background: #0000003b;
+  border-radius: 8px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.info-grid p {
+  display: flex;
+  justify-content: space-between;
+  font-size: 12.5px;
+  margin: 0;
+}
+
+.info-grid strong {
+  opacity: 0.85;
+}
+
+.app-description {
+  font-size: 13px;
+  line-height: 1.45;
+  text-align: left;
 }
 
 .trollstore-warning {
-  color: red;
+  margin-top: 10px;
+  color: #ff0000;
   font-weight: bold;
-  margin: 8px 0;
-  font-size: 18px;
+  font-size: 13px;
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 6px;
 }
 
@@ -571,5 +609,6 @@ body {
   font-size: 16px;
   font-weight: bold;
 }
+
 
 
