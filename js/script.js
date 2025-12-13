@@ -185,6 +185,7 @@ searchInput.addEventListener("input", function () {
           size,
           versionDate = "N/A",
           localizedDescription = "N/A",
+          developerName = "Unknown",
           bundleIdentifier = "N/A",
           minOS = "N/A",
           forTrollStore,
@@ -227,15 +228,23 @@ searchInput.addEventListener("input", function () {
           modalContent.innerHTML = `
             <img src="${iconURL}" alt="Icon" />
             <h2 class="modal-app-name">${name}</h2>
-            <p><strong>Bundle ID:</strong> ${bundleIdentifier}</p>
-            <p><strong>Version:</strong> ${version}</p>
-            <p><strong>Upload Date:</strong> ${versionDate}</p>
-            <p><strong>Size:</strong> ${sizeMB}</p>
-            <p><strong>Requires iOS:</strong> ${minOS}+</p>
-            ${forTrollStore ? `<p class="trollstore-warning">⚠️ Only works on TrollStore</p>` : ""}
-            ${price ? `<p><strong>Price:</strong> $${price}</p>` : ""}
-            <p><strong>Description:</strong> ${localizedDescription}</p>
+            <p class="developer-name">${developerName} Dev</p>
 
+            <div class="info-grid">
+              <p><strong>Bundle ID</strong><span>${bundleIdentifier}</span></p>
+              <p><strong>Version</strong><span>${version}</span></p>
+              <p><strong>Size</strong><span>${sizeMB}</span></p>
+              <p><strong>Requires iOS</strong><span>${minOS}+</span></p>
+              <p><strong>Upload Date</strong><span>${versionDate}</span></p>
+              ${price ? `<p><strong>Price</strong><span>$${price}</span></p>` : ""}
+            </div>
+            
+           ${forTrollStore ? `<p class="trollstore-warning">⚠️ Only works on TrollStore</p>` : ""}
+
+            <div class="description-box">
+              <p class="app-description">${localizedDescription}</p>
+            </div>
+            
             <button class="install-toggle" style="font-size: 16px;">
               Install With
               <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="none"
@@ -365,4 +374,5 @@ searchInput.addEventListener("input", function () {
     });
 
 });
+
 
