@@ -228,7 +228,7 @@ searchInput.addEventListener("input", function () {
           modalContent.innerHTML = `
             <img src="${iconURL}" alt="Icon" />
             <h2 class="modal-app-name">${name}</h2>
-            <p class="developer-name">${developerName} Dev</p>
+            <p class="developer-name">${developerName}</p>
 
             <div class="info-grid">
               <p><strong>Bundle ID</strong><span>${bundleIdentifier}</span></p>
@@ -374,5 +374,6 @@ searchInput.addEventListener("input", function () {
     });
 
 });
+
 
 
