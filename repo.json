@@ -16,7 +16,23 @@
             "localizedDescription": "Raw Mod",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 61487884,
+            "size": 237024243,
+            "minOS": "11.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Agar.io",
+            "bundleIdentifier": "com.miniclip.agar.io",
+            "trackId": "995999703",
+            "developerName": "@8tf_l",
+            "version": "26.3.5",
+            "versionDate": "2026-01-09",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.raw.ipa",
+            "localizedDescription": "Kahraba Mod Requires License",
+            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
+            "tintColor": "FF0000",
+            "size": 66792337,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -29,16 +45,15 @@
             "version": "26.3.5",
             "versionDate": "2026-01-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.anarky.ipa",
-            "localizedDescription": "anarky",
+            "localizedDescription": "Anarky Mod",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 61487884,
+            "size": 61110782,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
         },
         {
-
             "name": "Agar.io",
             "bundleIdentifier": "com.miniclip.agar.io",
             "trackId": "995999703",
@@ -46,10 +61,10 @@
             "version": "26.3.5",
             "versionDate": "2026-01-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.anarky+shark.ipa",
-            "localizedDescription": "Anarky + shark",
+            "localizedDescription": "Anarky + Shark",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 55865331,
+            "size": 61231913,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -62,10 +77,10 @@
             "version": "26.3.5",
             "versionDate": "2026-01-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.anarky+xelahot.ipa",
-            "localizedDescription": "anarky + xelahot",
+            "localizedDescription": "Anarky + Xelahot",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 61644459,
+            "size": 61275169,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -81,7 +96,7 @@
             "localizedDescription": "Shark Mod",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 62399595,
+            "size": 61744785,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -94,10 +109,10 @@
             "version": "26.3.5",
             "versionDate": "2026-01-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.ctrl.ipa",
-            "localizedDescription": "ctrl",
+            "localizedDescription": "Ctrl",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 61925371,
+            "size": 61644160,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -113,7 +128,7 @@
             "localizedDescription": "ctrl + xelahot",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 62081977,
+            "size": 61808617,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -129,7 +144,7 @@
             "localizedDescription": "Bite Mod",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 64703976,
+            "size": 64431624,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -145,7 +160,7 @@
             "localizedDescription": "MemEdit An iOS memory analysis tool",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 55865331,
+            "size": 61720150,
             "minOS": "14.0",
             "screenshotURLs": [
             ]
@@ -161,7 +176,7 @@
             "localizedDescription": "flexing tool (long press with 3 fingers to open menu)",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
-            "size": 62902372,
+            "size": 62630772,
             "minOS": "11.0",
             "screenshotURLs": [
             ]
@@ -486,6 +501,7 @@
         }
     ]
 }
+
 
 
 
