@@ -25,10 +25,26 @@
             "name": "Agar.io",
             "bundleIdentifier": "com.miniclip.agar.io",
             "trackId": "995999703",
+            "developerName": "@8tf_l + @ytb.shark",
+            "version": "26.3.5",
+            "versionDate": "2026-01-09",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.kahraba+shark.ipa",
+            "localizedDescription": "Kahraba + shark (Requires License)",
+            "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
+            "tintColor": "FF0000",
+            "size": 66792337,
+            "minOS": "11.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "Agar.io",
+            "bundleIdentifier": "com.miniclip.agar.io",
+            "trackId": "995999703",
             "developerName": "@8tf_l",
             "version": "26.3.5",
             "versionDate": "2026-01-09",
-            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.raw.ipa",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/2/26.3.5.kahraba.ipa",
             "localizedDescription": "Kahraba Mod Requires License",
             "iconURL": "https://github.com/QxAngel/QxAngel/assets/136937878/6f96a5e9-fe5e-478a-a5d8-309cf6808b00",
             "tintColor": "FF0000",
@@ -501,6 +517,7 @@
         }
     ]
 }
+
 
 
 
