@@ -214,6 +214,37 @@
             ]
         },
         {
+            "name": "Cash App",
+            "bundleIdentifier": "com.squareup.cash",
+            "trackId": "711923939",
+            "developerName": "@ivglitched",
+            "version": "4.5",
+            "versionDate": "2026-02-22",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/CashApp.ipa",
+            "localizedDescription": "Cash App Clone",
+            "iconURL": "https://github.com/user-attachments/assets/2923e776-e089-4005-9569-e43bec5caa80",
+            "tintColor": "FF0000",
+            "size": 66477199,
+            "minOS": "16.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
+            "name": "LiveContainer",
+            "bundleIdentifier": "com.kdt.livecontainer.app",
+            "developerName": "@khanhduytran0",
+            "version": "3.7.0",
+            "versionDate": "2026-02-22",
+            "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/LiveContainer.ipa",
+            "localizedDescription": "Run iOS apps without actually installing them!",
+            "iconURL": "https://github.com/user-attachments/assets/2c06ecce-8462-48cc-87b7-7fec3367f193",
+            "tintColor": "FF0000",
+            "size": 4521039,
+            "minOS": "15.0",
+            "screenshotURLs": [
+            ]
+        },
+        {
             "name": "TikTok",
             "bundleIdentifier": "com.zhiliaoapp.musically",
             "trackId": "835599320", 
@@ -281,7 +312,7 @@
             "name": "RGB Keyboard",
             "bundleIdentifier": "com.mck.RGB-Keyboard",
             "trackId": "1566128897", 
-            "developerName": "@6ky_l-Team",
+            "developerName": "@qx4.dev",
             "version": "2.9.1",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/RGB.Keyboard.ipa",
@@ -298,7 +329,7 @@
             "name": "Geometry Dash",
             "bundleIdentifier": "com.robtop.geometryjump",
             "trackId": "625334537", 
-            "developerName": "@6ky_l-Team",
+            "developerName": "@qx4.dev",
             "version": "2.207",
             "versionDate": "2025-07-21",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Geometry.ipa",
@@ -315,7 +346,7 @@
             "name": "Animock",
             "bundleIdentifier": "com.hassantaleb.mockup",
             "trackId": "6471911398", 
-            "developerName": "@6ky_l-Team",
+            "developerName": "@qx4.dev",
             "version": "3.1.5",
             "versionDate": "2025-07-09",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Animock.ipa",
@@ -331,7 +362,7 @@
             "name": "Minecraft",
             "bundleIdentifier": "com.mojang.minecraftpe",
             "trackId": "479516143",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@qx4.dev",
             "version": "1.21.100",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Minecraft.ipa",
@@ -347,7 +378,7 @@
         {
             "name": "QxDecrypt",
             "bundleIdentifier": "com.qxangel.qxderypt",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@donato-fiore",
             "version": "1.0",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/QxDecrypt.tipa",
@@ -362,7 +393,7 @@
         {
             "name": "ESign",
             "bundleIdentifier": "p3.xyz.yyyue.esign",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@ESign",
             "version": "5.0.2",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/ESign.ipa",
@@ -377,7 +408,7 @@
         {
             "name": "Scarlet",
             "bundleIdentifier": "com.DebianArch.ScarletPersonalXYZZZ",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@GetScarlet",
             "version": "1.0",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Scarlet.ipa",
@@ -393,7 +424,7 @@
             "name": "Spotify",
             "bundleIdentifier": "com.spotify.client",
             "trackId": "324684580",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@EeveeSpotify",
             "version": "9.0.66",
             "versionDate": "2025-08-03",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/EeveeSpotify.ipa",
@@ -408,7 +439,7 @@
         {
             "name": "HD Flix",
             "bundleIdentifier": "com.qxangel.dev",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@qx4.dev",
             "version": "2.0",
             "versionDate": "2025-07-08",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/HDFlix.ipa",
@@ -423,7 +454,7 @@
         {
             "name": "Filza",
             "bundleIdentifier": "com.tigisoftware.Filza",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@tigisoftware",
             "version": "4.0",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Filza.tipa",
@@ -439,7 +470,7 @@
         {
             "name": "AppStore++",
             "bundleIdentifier": "com.cokepokes.AppStorePlus",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@CokePokes",
             "version": "1.0.3",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/AppStore++.tipa",
@@ -455,7 +486,7 @@
         {
             "name": "TrollInstallerX",
             "bundleIdentifier": "com.Alfie.TrollInstallerX",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@alfiecg_de",
             "version": "1.0.3",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollInstallerX.ipa",
@@ -470,7 +501,7 @@
         {
             "name": "TrollRecorder",
             "bundleIdentifier": "wiki.qaq.trapp",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@Lessica",
             "version": "3.6",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollRecorder.tipa",
@@ -486,7 +517,7 @@
         {
             "name": "TrollFools",
             "bundleIdentifier": "wiki.qaq.TrollFools",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@Lessica",
             "version": "3.7",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/TrollFools.tipa",
@@ -502,7 +533,7 @@
         {
             "name": "CopyLog",
             "bundleIdentifier": "me.tomt000.ts.copylog",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@tomt000",
             "version": "1.7",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/CopyLog.tipa",
@@ -518,7 +549,7 @@
         {
             "name": "Dopamine",
             "bundleIdentifier": "com.opa334.Dopamine",
-            "developerName": "@6ky_l-Team",
+            "developerName": "@opa334dev",
             "version": "2.4.5",
             "versionDate": "2025-08-05",
             "downloadURL": "https://github.com/QxAngel/qxangel.github.io/releases/download/1/Dopamine.tipa",
@@ -533,6 +564,7 @@
         }
     ]
 }
+
 
 
 
