@@ -1,5 +1,12 @@
 document.addEventListener("DOMContentLoaded", () => {
 
+// msg
+  if (!sessionStorage.getItem("noticeShown")) {
+    alert("⚠️ Notice:\n\nI will not be able to update any IPA files for a while because my laptop is currently not working. Updates will resume once I get a new one.\n\nIf you would like to support the project, you can donate via PayPal to help me get a new laptop sooner. Every donation helps and is greatly appreciated.\n\nThank you for supporting QxAngel.");
+    sessionStorage.setItem("noticeShown", "true");
+  }
+  
+  
   const container = document.getElementById("app-container");
 
   const searchInput = document.getElementById("search-bar");
@@ -374,6 +381,3 @@ searchInput.addEventListener("input", function () {
     });
 
 });
-
-
-
