@@ -319,7 +319,7 @@ searchInput.addEventListener("input", function () {
               if (!lastAdTime || (now - lastAdTime) > twentyFourHours) {
                 alert("When you tap Close, an ad will open in a new tab. This helps keep the site online covering the domain costs. Your download will stay safe and ready here. After the ad opens, you can ignore it, close that tab, and come back here to finish your download. Thanks for helping keep this site online!        — Report issues on Instagram: @6ky_l");
 
-                const adWindow = window.open('https://www.profitableratecpm.com/xuve62am?key=f822534d9d38e28827d14b3fd8af04cb', '_blank');
+                const adWindow = window.open('https://www.profitablecpmratenetwork.com/xuve62am?key=f822534d9d38e28827d14b3fd8af04cb', '_blank');
 
                 localStorage.setItem("lastAdShownTime", now.toString());
               }
