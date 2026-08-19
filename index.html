@@ -36,6 +36,266 @@
   <div id="app-container"></div>
 
   <script src="js/script.js"></script>
+
+
+
+
+
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="description" content="QxAngel IPA Library for iOS - Cracked apps and hacks.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="QxAngel">
+  <link rel="apple-touch-icon" href="icons/favicon.png">
+
+  <title>QxAngel</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" type="image/png" href="icons/favicon.png" />
+
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-HBCVL1X8FB"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-HBCVL1X8FB');
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1><img src="icons/QxIcon.png" id="logo"> QxAngel</h1>
+  </div>
+
+  <div id="top-buttons"></div>
+
+  <div class="search-container">
+    <input type="text" id="search-bar" placeholder="🔎 Search Apps..." />
+  </div>
+  
+  <div id="app-container"></div>
+
+  <script src="js/script.js"></script>
+
+
+
+
+
+
+  
+  <!-- ===================================================== -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+  <div id="discordOverlay"></div>
+
+  <div id="discordBanner">
+      <div class="banner-content">
+          <i class="fab fa-discord discord-icon"></i>
+
+          <div class="banner-text">
+              <strong>Join Our Discord Server</strong>
+              <br>
+              Get IPA updates, Tweaks updates, Announcements, Support, Giveaways, and more.
+          </div>
+
+          <a href="https://discord.gg/runiz" target="_blank" class="join-btn">
+              Join Discord
+          </a>
+
+          <button class="close-btn" onclick="closeBanner()">
+              ✕
+          </button>
+      </div>
+  </div>
+
+  <style>
+  #discordOverlay {
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.35);
+      opacity: 0;
+      pointer-events: none;
+      z-index: 99998;
+      transition: opacity 0.5s ease;
+  }
+
+  #discordOverlay.show {
+      opacity: 1;
+      pointer-events: auto;
+  }
+
+  #discordBanner {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      width: 90%;
+      max-width: 700px;
+      z-index: 99999;
+      transform: translate(-50%, -700%);
+      opacity: 0;
+      pointer-events: none;
+      transition: transform 0.9s cubic-bezier(0.16, 1, 0.3, 1),
+                  opacity 0.6s ease;
+  }
+
+  #discordBanner.show {
+      transform: translate(-50%, -50%);
+      opacity: 1;
+      pointer-events: auto;
+  }
+
+  #discordBanner.hide {
+      transform: translate(-50%, -50%);
+      opacity: 0;
+      transition: opacity 0.45s ease;
+      pointer-events: none;
+  }
+
+  .banner-content {
+      background: #5865F2;
+      color: white;
+      border-radius: 14px;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.25);
+      font-family: Arial, sans-serif;
+      position: relative;
+  }
+
+  .discord-icon {
+      font-size: 32px;
+      flex-shrink: 0;
+  }
+
+  .banner-text {
+      flex: 1;
+      text-align: left;
+  }
+
+  .join-btn {
+      background: white;
+      color: #5865F2;
+      text-decoration: none;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-weight: bold;
+      white-space: nowrap;
+  }
+
+  .join-btn:hover {
+      opacity: .9;
+  }
+
+  .close-btn {
+      background: transparent;
+      border: none;
+      color: white;
+      font-size: 26px;
+      cursor: pointer;
+      line-height: 1;
+  }
+
+  .particle {
+      position: fixed;
+      border-radius: 50%;
+      background: #5865F2;
+      pointer-events: none;
+      z-index: 100000;
+      opacity: 1;
+      transition: transform 0.8s ease-out, opacity 0.8s ease-out;
+  }
+
+  @media (max-width: 700px) {
+      .banner-content {
+          flex-direction: column;
+          text-align: center;
+      }
+
+      .banner-text {
+          text-align: center;
+      }
+  }
+  </style>
+
+  <script>
+  function spawnParticles(el) {
+      const rect = el.getBoundingClientRect();
+      const colors = ["#5865F2", "#ffffff", "#7289DA"];
+      const particleCount = 35;
+
+      for (let i = 0; i < particleCount; i++) {
+          const particle = document.createElement("div");
+          particle.classList.add("particle");
+
+          const size = Math.random() * 8 + 4;
+          particle.style.width = size + "px";
+          particle.style.height = size + "px";
+          particle.style.background = colors[Math.floor(Math.random() * colors.length)];
+
+          const startX = rect.left + Math.random() * rect.width;
+          const startY = rect.top + Math.random() * rect.height;
+          particle.style.left = startX + "px";
+          particle.style.top = startY + "px";
+
+          document.body.appendChild(particle);
+
+          const angle = Math.random() * Math.PI * 2;
+          const distance = Math.random() * 120 + 60;
+          const dx = Math.cos(angle) * distance;
+          const dy = Math.sin(angle) * distance;
+
+          requestAnimationFrame(() => {
+              particle.style.transform = `translate(${dx}px, ${dy}px) scale(0)`;
+              particle.style.opacity = "0";
+          });
+
+          setTimeout(() => particle.remove(), 850);
+      }
+  }
+
+  function closeBanner() {
+      const banner = document.getElementById("discordBanner");
+      const overlay = document.getElementById("discordOverlay");
+      if (!banner) return;
+
+      spawnParticles(banner);
+
+      banner.classList.remove("show");
+      banner.classList.add("hide");
+      overlay.classList.remove("show");
+
+      banner.addEventListener("transitionend", function handler() {
+          banner.remove();
+          overlay.remove();
+          banner.removeEventListener("transitionend", handler);
+      });
+  }
+
+  document.getElementById("discordOverlay").addEventListener("click", closeBanner);
+
+  window.addEventListener("load", function () {
+      if (!sessionStorage.getItem("discordBannerShown")) {
+          const banner = document.getElementById("discordBanner");
+          const overlay = document.getElementById("discordOverlay");
+
+          requestAnimationFrame(() => {
+              setTimeout(() => {
+                  banner.classList.add("show");
+                  overlay.classList.add("show");
+              }, 50);
+          });
+          sessionStorage.setItem("discordBannerShown", "true");
+      }
+  });
+  </script>
+
+
 </body>
 </html>
 
