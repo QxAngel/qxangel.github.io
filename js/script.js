@@ -182,7 +182,6 @@ searchInput.addEventListener("input", function () {
         const {
           name = "N/A",
           version = "N/A",
-          tweakVersion,
           size,
           versionDate = "N/A",
           localizedDescription = "N/A",
@@ -234,7 +233,6 @@ searchInput.addEventListener("input", function () {
             <div class="info-grid">
               <p><strong>Bundle ID</strong><span>${bundleIdentifier}</span></p>
               <p><strong>Version</strong><span>${version}</span></p>
-              ${tweakVersion ? `<p><strong>Tweak Version</strong><span>${tweakVersion}</span></p>` : ""}
               <p><strong>Size</strong><span>${sizeMB}</span></p>
               <p><strong>Requires iOS</strong><span>${minOS}+</span></p>
               <p><strong>Upload Date</strong><span>${versionDate}</span></p>
