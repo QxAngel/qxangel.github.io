@@ -1,11 +1,4 @@
 document.addEventListener("DOMContentLoaded", () => {
-
-/* msg
-  if (!sessionStorage.getItem("noticeShown")) {
-    alert("⚠️ Notice:\n\nI will not be able to update any IPA files for a while because my laptop is currently not working. Updates will resume once I get a new one.\n\nIf you would like to support the project, you can donate via PayPal to help me get a new laptop sooner. Every donation helps and is greatly appreciated.\n\nThank you for supporting QxAngel.");
-    sessionStorage.setItem("noticeShown", "true");
-  }
-  */
   
   const container = document.getElementById("app-container");
 
@@ -189,6 +182,7 @@ searchInput.addEventListener("input", function () {
         const {
           name = "N/A",
           version = "N/A",
+          tweakVersion,
           size,
           versionDate = "N/A",
           localizedDescription = "N/A",
@@ -240,6 +234,7 @@ searchInput.addEventListener("input", function () {
             <div class="info-grid">
               <p><strong>Bundle ID</strong><span>${bundleIdentifier}</span></p>
               <p><strong>Version</strong><span>${version}</span></p>
+              ${tweakVersion ? `<p><strong>Tweak Version</strong><span>${tweakVersion}</span></p>` : ""}
               <p><strong>Size</strong><span>${sizeMB}</span></p>
               <p><strong>Requires iOS</strong><span>${minOS}+</span></p>
               <p><strong>Upload Date</strong><span>${versionDate}</span></p>
@@ -302,10 +297,6 @@ searchInput.addEventListener("input", function () {
 
             const isStandalone = window.matchMedia('(display-mode: standalone)').matches || window.navigator.standalone === true;
 
-            const lastAdTime = localStorage.getItem("lastAdShownTime");
-            const now = Date.now();
-            const twentyFourHours = 24 * 60 * 60 * 1000;
-
             const downloadLink = document.createElement("a");
             downloadLink.href = downloadURL;
             downloadLink.download = "";
@@ -315,16 +306,8 @@ searchInput.addEventListener("input", function () {
               setTimeout(() => {
                 alert("Web App mode detected. Your file is downloading — this may take a few seconds. Once it's ready, it will appear on your screen automatically. Please close this alert and wait. Do not close or leave the app");
               }, 300);
-            } else {
-              if (!lastAdTime || (now - lastAdTime) > twentyFourHours) {
-                alert("When you tap Close, an ad will open in a new tab. This helps keep the site online covering the domain costs. Your download will stay safe and ready here. After the ad opens, you can ignore it, close that tab, and come back here to finish your download. Thanks for helping keep this site online!        — Report issues on Instagram: @6ky_l");
-
-                const adWindow = window.open('https://www.profitablecpmratenetwork.com/xuve62am?key=f822534d9d38e28827d14b3fd8af04cb', '_blank');
-
-                localStorage.setItem("lastAdShownTime", now.toString());
-              }
             }
-});
+          });
 
           const copyDownloadUrlBtn = modalContent.querySelector(".install-copy-url");
           if (copyDownloadUrlBtn) {
